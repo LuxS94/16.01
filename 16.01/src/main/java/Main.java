@@ -18,6 +18,6 @@ public class Main {
         Games.add(FIFA26);
         Games.add(monopoly);
         Games.add(scacchi);
-       
+
     }
 }
