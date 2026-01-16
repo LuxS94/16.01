@@ -32,5 +32,18 @@ public class Collection {
 
     }
 
+    //metodo per cercare per numero di giocatori
+    public static void researchByPlayers(ArrayList<GiochiDaTavolo> listaGiochi, int players) {
+        listaGiochi.stream().filter(g -> g.getPlayers() == players).forEach(g -> System.out.println("Gioco= " + g.getTitolo() + ", " + "Players=" + g.getPlayers()));
+
+    }
+
+    //metodo per rimuovere un elemento ,dato un id
+    public static void removeById(ArrayList<GameCollection> listaGiochi, int id) {
+        listaGiochi.removeIf(g -> g.getId() == id);
+        System.out.println(listaGiochi.toString());
+
+    }
+
     ;
 }
