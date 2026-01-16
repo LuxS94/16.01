@@ -17,5 +17,12 @@ public class GiochiDaTavolo extends GameCollection {
 
     }
 
+    public int getPlayers() {
+        return players;
+    }
+
+    public int getDurata() {
+        return durata;
+    }
 }
 

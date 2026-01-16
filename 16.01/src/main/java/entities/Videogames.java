@@ -5,6 +5,7 @@ public class Videogames extends GameCollection {
     private int durata;
     private Genere genere;
 
+
     public Videogames(int id, String titolo, int anno, double prezzo, String piattaforma, int durata, Genere genere) {
         super(id, titolo, anno, prezzo);
         this.piattaforma = piattaforma;
@@ -14,4 +15,17 @@ public class Videogames extends GameCollection {
             throw new IndexOutOfBoundsException("Inserisci una durata valida");
         }
     }
+
+    public String getPiattaforma() {
+        return piattaforma;
+    }
+
+    public int getDurata() {
+        return durata;
+    }
+
+    public Genere getGenere() {
+        return genere;
+    }
+
 }

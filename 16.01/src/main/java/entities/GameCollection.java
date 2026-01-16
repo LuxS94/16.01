@@ -21,4 +21,19 @@ public abstract class GameCollection {
         ;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public String getTitolo() {
+        return titolo;
+    }
+
+    public int getAnno() {
+        return anno;
+    }
+
+    public double getPrezzo() {
+        return prezzo;
+    }
 }
