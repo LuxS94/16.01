@@ -28,4 +28,16 @@ public class Videogames extends GameCollection {
         return genere;
     }
 
+    @Override
+    public String toString() {
+        return "Videogames{" +
+                "id=" + getId() +
+                ", titolo=" + getTitolo() +
+                ", anno=" + getAnno() +
+                ", prezzo=" + getPrezzo() +
+                ", piattaforma=" + piattaforma + '\'' +
+                ", durata=" + durata +
+                ", genere=" + genere +
+                '}';
+    }
 }

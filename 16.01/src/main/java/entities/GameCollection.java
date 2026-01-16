@@ -36,4 +36,14 @@ public abstract class GameCollection {
     public double getPrezzo() {
         return prezzo;
     }
+
+    @Override
+    public String toString() {
+        return "GameCollection{" +
+                "id=" + id +
+                ", titolo='" + titolo + '\'' +
+                ", anno=" + anno +
+                ", prezzo=" + prezzo +
+                '}';
+    }
 }
