@@ -22,8 +22,16 @@ public class GiochiDaTavolo extends GameCollection {
         return players;
     }
 
+    public void setPlayers(int players) {
+        this.players = players;
+    }
+
     public int getDurata() {
         return durata;
+    }
+
+    public void setDurata(int durata) {
+        this.durata = durata;
     }
 
     @Override

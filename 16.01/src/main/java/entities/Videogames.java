@@ -20,12 +20,24 @@ public class Videogames extends GameCollection {
         return piattaforma;
     }
 
+    public void setPiattaforma(String piattaforma) {
+        this.piattaforma = piattaforma;
+    }
+
     public int getDurata() {
         return durata;
     }
 
+    public void setDurata(int durata) {
+        this.durata = durata;
+    }
+
     public Genere getGenere() {
         return genere;
+    }
+
+    public void setGenere(Genere genere) {
+        this.genere = genere;
     }
 
     @Override
